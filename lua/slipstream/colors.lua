@@ -6,16 +6,16 @@ local M = {}
 M.palette = {
   -- Base
   black        = "#000000",
-  bg1          = "#080808",
-  bg2          = "#0c0c0c",
-  bg3          = "#161618",
-  bg4          = "#1e1e20",
-  bg5          = "#28282a",
+  bg1          = "#030303",
+  bg2          = "#060606",
+  bg3          = "#0a0a0a",
+  bg4          = "#0e0e0e",
+  bg5          = "#121212",
 
   -- Borders / guides
-  border       = "#1c1c1e",
-  border2      = "#2a2a2e",
-  invisible    = "#2a2a2e",
+  border       = "#141414",
+  border2      = "#1a1a1a",
+  invisible    = "#1a1a1a",
 
   -- Foreground scale
   fg           = "#e2e2e6",
