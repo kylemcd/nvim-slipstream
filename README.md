@@ -1,6 +1,6 @@
 # nvim-slipstream
 
-A dark and fast theme for [Neovim](https://neovim.io). The Neovim port of [Slipstream for Zed](https://github.com/kylemcd/zed-slipstream) — same palette, same feel.
+A dark and fast theme for [Neovim](https://neovim.io).
 
 ## Color Palette
 
@@ -70,3 +70,7 @@ vim.cmd("colorscheme slipstream")
 ## License
 
 MIT — see [LICENSE](LICENSE) for details.
+
+---
+
+Also available for [Zed](https://github.com/kylemcd/zed-slipstream).
