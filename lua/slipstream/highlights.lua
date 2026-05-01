@@ -370,6 +370,29 @@ function M.get(c)
     MiniTablineModifiedHidden   = { fg = c.gold_dim, bg = c.black },
     MiniTablineFill           = { bg = c.black },
     MiniTablineTabpagesection = { fg = c.black, bg = c.teal },
+
+    -- ─── Mason ────────────────────────────────────────────────────────────────
+    MasonHeader              = { fg = c.black,     bg = c.teal,  bold = true },
+    MasonHeaderSecondary     = { fg = c.black,     bg = c.sky,   bold = true },
+    MasonHighlight           = { fg = c.teal },
+    MasonHighlightBlock      = { fg = c.black,     bg = c.teal },
+    MasonHighlightBlockBold  = { fg = c.black,     bg = c.teal,  bold = true },
+    MasonHighlightSecondary      = { fg = c.sky },
+    MasonHighlightBlockSecondary = { fg = c.black, bg = c.sky },
+    MasonHighlightBlockBoldSecondary = { fg = c.black, bg = c.sky, bold = true },
+    MasonMuted               = { fg = c.fg_muted },
+    MasonMutedBlock          = { fg = c.fg_disabled, bg = c.bg3 },
+    MasonMutedBlockBold      = { fg = c.fg_muted,  bg = c.bg3,   bold = true },
+    MasonError               = { fg = c.rose },
+    MasonWarning             = { fg = c.gold },
+    MasonHeading             = { fg = c.white,     bold = true },
+
+    -- ─── LuaSnip ──────────────────────────────────────────────────────────────
+    LuasnipInsertNodeActive  = { fg = c.black,     bg = c.teal },
+    LuasnipChoiceNodeActive  = { fg = c.black,     bg = c.gold },
+
+    -- ─── zen-mode ─────────────────────────────────────────────────────────────
+    ZenModeBg                = { bg = c.black },
   }
 end
 
