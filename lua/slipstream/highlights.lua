@@ -56,10 +56,10 @@ function M.get(c)
     Directory       = { fg = c.teal },
     Title           = { fg = c.white,      bold = true },
 
-    DiffAdd         = { bg = "#5cb8a21a" },
-    DiffChange      = { bg = "#f4d58d1a" },
-    DiffDelete      = { bg = "#e85c6c1a" },
-    DiffText        = { bg = "#f4d58d33" },
+    DiffAdd         = { bg = "#0d1f1b" },
+    DiffChange      = { bg = "#1f1a0d" },
+    DiffDelete      = { bg = "#1f0d0f" },
+    DiffText        = { bg = "#2a230d" },
 
     SpellBad        = { undercurl = true,  sp = c.rose },
     SpellCap        = { undercurl = true,  sp = c.blue },
@@ -224,14 +224,14 @@ function M.get(c)
     DiagnosticUnderlineInfo    = { undercurl = true, sp = c.blue },
     DiagnosticUnderlineHint    = { undercurl = true, sp = c.fg_subtle },
 
-    DiagnosticVirtualTextError = { fg = c.rose,      bg = "#e85c6c1a" },
-    DiagnosticVirtualTextWarn  = { fg = c.gold,      bg = "#f4d58d1a" },
-    DiagnosticVirtualTextInfo  = { fg = c.blue,      bg = "#7aa4c91a" },
-    DiagnosticVirtualTextHint  = { fg = c.fg_subtle, bg = "#5c5c641a" },
+    DiagnosticVirtualTextError = { fg = c.rose,      bg = "#1f0d0f" },
+    DiagnosticVirtualTextWarn  = { fg = c.gold,      bg = "#1f1a0d" },
+    DiagnosticVirtualTextInfo  = { fg = c.blue,      bg = "#0d141f" },
+    DiagnosticVirtualTextHint  = { fg = c.fg_subtle, bg = "#0f0f10" },
 
-    LspReferenceText           = { bg = "#5cb8a222" },
-    LspReferenceRead           = { bg = "#5cb8a222" },
-    LspReferenceWrite          = { bg = "#5cb8a244" },
+    LspReferenceText           = { bg = "#0d1f1b" },
+    LspReferenceRead           = { bg = "#0d1f1b" },
+    LspReferenceWrite          = { bg = "#153028" },
     LspSignatureActiveParameter = { fg = c.gold, bold = true },
     LspInlayHint               = { fg = c.fg_subtle, bg = c.bg2, italic = true },
 
@@ -242,8 +242,8 @@ function M.get(c)
     GitSignsAddNr            = { fg = c.teal },
     GitSignsChangeNr         = { fg = c.gold },
     GitSignsDeleteNr         = { fg = c.rose },
-    GitSignsAddLn            = { bg = "#5cb8a21a" },
-    GitSignsChangeLn         = { bg = "#f4d58d1a" },
+    GitSignsAddLn            = { bg = "#0d1f1b" },
+    GitSignsChangeLn         = { bg = "#1f1a0d" },
 
     -- ─── Telescope ────────────────────────────────────────────────────────────
     TelescopeNormal          = { fg = c.fg,       bg = c.bg1 },
