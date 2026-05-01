@@ -238,6 +238,23 @@ function M.get(c)
     LspSignatureActiveParameter = { fg = c.gold, bold = true },
     LspInlayHint               = { fg = c.fg_subtle, bg = c.bg2, italic = true },
 
+    -- Semantic tokens (imported identifiers)
+    ["@lsp.typemod.class.importDeclaration"] = { fg = c.teal },
+    ["@lsp.typemod.type.importDeclaration"] = { fg = c.teal },
+    ["@lsp.typemod.interface.importDeclaration"] = { fg = c.teal },
+    ["@lsp.typemod.enum.importDeclaration"] = { fg = c.teal },
+    ["@lsp.typemod.namespace.importDeclaration"] = { fg = c.teal },
+    ["@lsp.typemod.class.importDeclaration.typescript"] = { fg = c.teal },
+    ["@lsp.typemod.type.importDeclaration.typescript"] = { fg = c.teal },
+    ["@lsp.typemod.interface.importDeclaration.typescript"] = { fg = c.teal },
+    ["@lsp.typemod.enum.importDeclaration.typescript"] = { fg = c.teal },
+    ["@lsp.typemod.namespace.importDeclaration.typescript"] = { fg = c.teal },
+    ["@lsp.typemod.class.importDeclaration.tsx"] = { fg = c.teal },
+    ["@lsp.typemod.type.importDeclaration.tsx"] = { fg = c.teal },
+    ["@lsp.typemod.interface.importDeclaration.tsx"] = { fg = c.teal },
+    ["@lsp.typemod.enum.importDeclaration.tsx"] = { fg = c.teal },
+    ["@lsp.typemod.namespace.importDeclaration.tsx"] = { fg = c.teal },
+
     -- ─── Git signs ────────────────────────────────────────────────────────────
     GitSignsAdd              = { fg = c.teal },
     GitSignsChange           = { fg = c.gold },
