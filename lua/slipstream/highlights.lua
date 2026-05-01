@@ -131,7 +131,8 @@ function M.get(c)
     ["@operator"]                    = { fg = c.fg_muted },
 
     ["@punctuation.delimiter"]       = { fg = c.fg_subtle },
-    ["@punctuation.bracket"]         = { fg = c.fg_muted },
+    ["@punctuation.bracket"]         = { fg = c.teal },
+    TSBracket                         = { fg = c.teal },
     ["@punctuation.special"]         = { fg = c.teal },
 
     ["@string"]                      = { fg = c.gold },
