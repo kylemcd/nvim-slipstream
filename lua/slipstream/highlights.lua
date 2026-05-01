@@ -131,8 +131,7 @@ function M.get(c)
     ["@operator"]                    = { fg = c.fg_muted },
 
     ["@punctuation.delimiter"]       = { fg = c.fg_subtle },
-    ["@punctuation.bracket"]         = { fg = c.teal },
-    TSBracket                         = { fg = c.teal },
+    ["@punctuation.bracket"]         = { fg = c.fg_muted },
     ["@punctuation.special"]         = { fg = c.teal },
 
     ["@string"]                      = { fg = c.gold },
@@ -182,9 +181,12 @@ function M.get(c)
     ["@property"]                    = { fg = c.fg2 },
 
     ["@variable"]                    = { fg = c.fg },
+    ["@variable.import"]             = { fg = c.teal },
     ["@variable.builtin"]            = { fg = c.teal },
     ["@variable.parameter"]          = { fg = c.fg },
     ["@variable.member"]             = { fg = c.fg2 },
+
+    ["@type.import"]                 = { fg = c.teal },
 
     ["@constant"]                    = { fg = c.gold },
     ["@constant.builtin"]            = { fg = c.gold },
